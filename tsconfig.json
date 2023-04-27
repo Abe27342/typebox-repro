@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+        "target": "es2017",
+        "moduleResolution": "node",
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"noImplicitAny": true,
+        // Uncomment the following line to remove "TS2589: Type instantiation is excessively deep and possibly infinite." error
+        // "skipLibCheck": true,
+        "lib": ["ES2017"]
+	},
+	"include": ["src/**/*"],
+}
